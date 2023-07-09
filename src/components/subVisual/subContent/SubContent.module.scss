@@ -1,0 +1,228 @@
+.sub_content_wrap {
+    position: relative;
+    width:100%;
+    height:120vh;
+    .sub_content_1, .sub_content_2 {
+        position: relative;
+        width:100%;
+        display:flex;
+        .spec_box, .animation_box, .text_box {
+            margin:0 10px;
+        }
+        .spec_box {
+            display:flex;
+            align-items:center;
+            justify-content:center;
+            position:relative;
+            width:33.33%;
+            color:#fff;
+            font-size:330px;
+            border:1px solid #fff;
+            border-radius:15px;
+            background:#fff;
+            .html, .css, .javas, .sass, .react, .vue, .node, .router {
+                position:absolute;
+                width:100%;
+                text-align: center;
+                display:flex;
+                align-items:center;
+                justify-content:center;
+                opacity:1;
+            }
+            .html {
+                color: #E34F26; /* HTML5 로고 색상 */
+            }
+            .css {
+                color: #2965f1; /* CSS 로고 색상 */
+            }
+            .javas {
+                color: #f0db4f; /* JavaScript 로고 색상 */
+            }
+            .sass {
+                color: #c69; /* Sass 로고 색상 */
+            }
+            .react {  
+                color: #61dafb; /* React 로고 색상 */
+            }
+            .vue {
+                color: #41b883; /* Vue.js 로고 색상 */
+            }
+            .node {
+                color: #8cc84b; /* Node.js 로고 색상 */
+            }
+            .router {
+                color: #ca4245; /* React Router 로고 색상 */
+            }
+        }
+        .animation_box {
+            position: relative;
+            width:33.33%;
+            overflow:hidden;
+            border-radius:15px;
+            .animation_text {
+                position: relative;
+                display:flex;
+                width:100%;
+                height:100%;
+                justify-content:center;
+                align-items:center;
+                font-size:100px;
+                margin:0;
+                background:#00000070;
+                font-family:'Titillium Web';
+                font-weight:800;
+                color:#00ff66;
+                transition:0.5s;
+                cursor:default;
+                &:hover {
+                    color:#ff0066;
+                    background:transparent;
+                }
+            }
+            img {
+                position:absolute;
+                top:0;
+                left:0;
+                width:100%;
+                height:100%;
+                z-index:-1;
+                object-fit:cover;
+                object-position:center;
+            }
+        }
+        .text_box {
+            width:33.33%;
+            background:#fff;
+            border-radius:15px;
+            .text_box_wrap {
+                width:100%;
+                height:100%;
+                display:flex;
+                justify-content:space-between;
+                flex-direction:column;
+                .text_sub_wrap {
+                    width:100%;
+                    height:100%;
+                    margin-bottom:0;
+                    transition:1s;
+                    .text_sub_content {
+                        width:100%;
+                        height:100%;
+                        display:flex;
+                        align-items:center;
+                        font-family:'Titillium Web';
+                        font-weight:800;
+                        font-size:70px;
+                        margin-left:5px;
+                    }
+                }
+            }
+        }
+    }
+    .sub_content_2 {
+            margin-top:20px;
+        .animation_box_2 {
+            width:50%;
+            overflow:hidden;
+            border:1px solid #fff;
+            border-radius:15px;
+            img {
+                width:100%;
+                height:100%;
+                object-fit:cover;
+            }
+        }
+        .text_sub_final {
+            margin-left:10px;
+            width:50%;
+            border:1px solid #000;
+            border-radius:15px;
+            background:#fff;
+            p {
+                color:#000;
+                font-family:'Titillium Web';
+                font-weight:800;
+                font-size:100px;
+                transition:0.5s;
+                margin:0 10px;
+                transition:0.5s;
+            }
+            &:hover {
+                animation-name:lastment;
+                animation-duration:2s;
+                animation-iteration-count:infinite;
+            }
+            &:hover .sub_point {
+                animation-name:subPoint;
+                animation-duration:2s;
+                animation-iteration-count:infinite;
+            }
+        }
+    }
+}
+
+@keyframes lastment {
+    0% {
+        border:1px solid #ff0d00;
+    }
+    10% {
+        border:1px solid #ff8800;
+    }
+    30% {
+        border:1px solid #ffe600;
+    }
+    40% {
+        border:1px solid #9dff00;
+    }
+    50% {
+        border:1px solid #00ff84;
+    }
+    60% {
+        border:1px solid #00c8ff;
+    }
+    70% {
+        border:1px solid #0033ff;
+    }
+    80% {
+        border:1px solid #6a00ff;
+    }
+    90% {
+        border:1px solid #f200ff;
+    }
+    100% {
+        border:1px solid #ff006a;
+    }
+}
+
+@keyframes subPoint {
+    0% {
+        color:#ff0d00
+    }
+    10% {
+        color:#ff8800
+    }
+    30% {
+        color:#ffe600
+    }
+    40% {
+        color:#9dff00
+    }
+    50% {
+        color:#00ff84
+    }
+    60% {
+        color:#00c8ff
+    }
+    70% {
+        color:#0033ff
+    }
+    80% {
+        color:#6a00ff
+    }
+    90% {
+        color:#f200ff
+    }
+    100% {
+        color:#ff006a
+    }
+}

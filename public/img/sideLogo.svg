@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Created with Vectornator (http://vectornator.io/) -->
+<svg height="100%" stroke-miterlimit="10" style="fill-rule:nonzero;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;" version="1.1" viewBox="0 0 257.341 500.862" width="100%" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:vectornator="http://vectornator.io" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<path d="M170.529 124.243L78.6962 216.288L86.5943 223.942L177.241 133.262L170.529 124.243Z" id="Fill"/>
+</defs>
+<clipPath id="ArtboardFrame">
+<rect height="500.862" width="257.341" x="0" y="0"/>
+</clipPath>
+<g clip-path="url(#ArtboardFrame)" id="레이어-2" vectornator:layerName="레이어 2">
+<path d="M0 500.339L256.294 499.857L256.783 0.249168L0.244945 0L0 500.339Z" fill="#ffffff" fill-rule="nonzero" opacity="1" stroke="#343434" stroke-linecap="butt" stroke-linejoin="round" stroke-width="1" vectornator:layerName="곡선 6"/>
+<path d="M5.04987 495.153L252.164 494.955L251.904 348.29L4.86722 348.382L5.04987 495.153Z" fill="#343434" fill-rule="nonzero" opacity="1" stroke="#fefefe" stroke-linecap="butt" stroke-linejoin="round" stroke-width="1" vectornator:layerName="곡선 5"/>
+<path d="M19.1736 456.844L37.5957 456.846L37.8119 417.469L46.8584 456.575L62.8219 456.81L71.9164 417.438L71.7537 456.875L90.4574 456.696L90.7462 359.944L70.5396 359.854L54.937 407.144L39.3545 359.823L19.2997 359.916L19.1736 456.844Z" fill="#ffffff" fill-rule="nonzero" opacity="1" stroke="#fefefe" stroke-linecap="butt" stroke-linejoin="round" stroke-width="1" vectornator:layerName="곡선 1"/>
+<path d="M100.868 456.961L119.601 457.279L124.048 440.631L147.389 440.642L152.011 456.944L170.529 457.023L145.926 359.981L127.219 360.092L100.868 456.961Z" fill="#ffffff" fill-rule="nonzero" opacity="1" stroke="#fefefe" stroke-linecap="butt" stroke-linejoin="round" stroke-width="1" vectornator:layerName="곡선 2"/>
+<path d="M129.041 421.748L143.008 421.602L136.355 395.911L129.041 421.748Z" fill="#343434" fill-rule="nonzero" opacity="1" stroke="#fefefe" stroke-linecap="butt" stroke-linejoin="round" stroke-width="1" vectornator:layerName="곡선 3"/>
+<path d="M177.393 442.855L191.504 456.925L223.154 456.785L237.344 442.892L237.474 424.035L218.973 423.8L219.066 438.164L196.059 438.125L195.919 378.078L218.941 378.347L218.837 392.81L237.881 393.015L237.755 374.084L223.264 359.81L191.652 359.934L177.241 374.147L177.393 442.855Z" fill="#ffffff" fill-rule="nonzero" opacity="1" stroke="#fefefe" stroke-linecap="butt" stroke-linejoin="round" stroke-width="1" vectornator:layerName="곡선 4"/>
+<path d="M13.9428 284.55L26.3389 284.112L26.7655 82.1673L242.545 298.653L242.722 66.8487L230.509 67.1982L230.647 269.956L14.3029 52.3157L13.9428 284.55Z" fill="#343434" fill-rule="nonzero" opacity="1" stroke="#fefefe" stroke-linecap="butt" stroke-linejoin="round" stroke-width="1" vectornator:layerName="곡선 7"/>
+<path d="M168.426 125.786L177.042 134.167C177.042 134.167 194.113 117.212 196.262 92.507C198.148 70.8391 194.986 45.1991 161.536 24.3582C142.34 12.3979 109.145 11.6485 84.4876 30.7278C53.4399 54.752 59.613 97.1511 59.613 97.1511L81.9991 119.595C81.9991 119.595 65.952 90.6377 73.7776 66.7853C76.9904 56.9928 95.3904 28.9726 123.38 28.1052C135.92 27.7166 150.73 30.4774 160.333 37.7569C166.089 42.1206 173.454 47.992 177.329 56.2584C187.259 77.4402 185.095 81.0095 183.723 93.0556C181.368 113.736 168.426 125.786 168.426 125.786Z" fill="#343434" fill-rule="nonzero" opacity="1" stroke="#fefefe" stroke-linecap="butt" stroke-linejoin="round" stroke-width="1" vectornator:layerName="곡선 8"/>
+<path d="M87.3751 223.904L84.6582 221.261L78.7598 215.523C78.7598 215.523 61.6887 232.478 59.5392 257.183C57.6539 278.851 60.8154 304.491 94.2653 325.332C113.462 337.292 146.657 338.042 171.314 318.962C202.362 294.938 196.189 252.539 196.189 252.539L173.803 230.095C173.803 230.095 189.85 259.053 182.024 282.905C179.405 290.888 166.693 310.985 146.92 318.609C142.438 320.337 137.594 321.425 132.422 321.585C131.19 321.623 129.937 321.631 128.669 321.607C117.023 321.388 104.129 318.498 95.469 311.933C89.7124 307.57 82.348 301.698 78.4728 293.432C68.5428 272.25 70.7069 268.681 72.0788 256.635C74.434 235.955 87.3751 223.904 87.3751 223.904Z" fill="#343434" fill-rule="nonzero" opacity="1" stroke="#fefefe" stroke-linecap="butt" stroke-linejoin="round" stroke-width="1" vectornator:layerName="곡선 9"/>
+<g opacity="1" vectornator:layerName="곡선 10">
+<use fill="#343434" fill-rule="nonzero" stroke="none" xlink:href="#Fill"/>
+<mask height="99.6989" id="StrokeMask" maskUnits="userSpaceOnUse" width="98.5445" x="78.6962" y="124.243">
+<rect fill="#000000" height="99.6989" stroke="none" width="98.5445" x="78.6962" y="124.243"/>
+<use fill="#ffffff" fill-rule="evenodd" stroke="none" xlink:href="#Fill"/>
+</mask>
+<use fill="none" mask="url(#StrokeMask)" stroke="#343434" stroke-linecap="butt" stroke-linejoin="round" stroke-width="2" xlink:href="#Fill"/>
+</g>
+<path d="M328.187 124.243" fill="none" opacity="1" stroke="#000000" stroke-linecap="butt" stroke-linejoin="round" stroke-width="1" vectornator:layerName="곡선 11"/>
+</g>
+</svg>

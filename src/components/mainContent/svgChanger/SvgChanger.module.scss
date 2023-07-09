@@ -1,0 +1,30 @@
+.svg_container {
+    width:100%;
+    height:50%;
+    svg {
+        position: relative;
+        width:100%;
+        height:100%;
+        text {
+            font-family:'Titillium Web';
+            font-weight:900;
+        }
+    }
+}
+
+.mouse-over {
+    animation: mouseOverAnimation 1s 0.5s forwards;
+    opacity:1;
+}
+
+@keyframes mouseOverAnimation {
+    0% {
+        width:100%;
+        height:50%;
+    }
+    100% {
+        width:0%;
+        height:0%;
+    }
+}
+

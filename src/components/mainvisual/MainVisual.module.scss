@@ -1,0 +1,340 @@
+.mainvisual_wrap {
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    position:relative;
+    width:100%;
+    height:50vh;
+    color:#fff;
+    overflow:hidden;
+    .mainvisual_left_text {
+        width:67%;
+        height:100%;
+        p {
+            font-size:50px;
+            line-height:50px;
+            margin:10px 0;
+        }
+        .mainvisual_text_a {
+            position:absolute;
+            top:10px;
+            left:-100%;
+            transition:1s;
+            animation: moveText_1 2s forwards;
+        }
+        .mainvisual_text_b {
+            position:absolute;
+            top:70px;
+            left:-100%;
+            animation: moveText_1 2s 0.2s forwards;
+        }
+        .mainvisual_text_c {
+            position:absolute;
+            top:130px;
+            left:-100%;
+            animation: moveText_1 2s 0.4s forwards;
+        }
+        .mainvisual_text_d {
+            position:absolute;
+            top:190px;
+            left:-100%;
+            animation: moveText_1 2s 0.6s forwards;
+        }
+        .mainvisual_text_color_a {
+            animation: changeColorA 1s 2s forwards;
+        }
+        .mainvisual_text_color_b {
+            animation: changeColorB 1s 2s forwards;
+        }
+        .mainvisual_text_color_c {
+            animation: changeColorC 1s 2s infinite;
+            
+        }
+    }
+    .mainvisual_right_sub {
+        position:absolute;
+        right:-100%;
+        top:0;
+        width:30%;
+        height:auto;
+        margin-right:50px;
+        animation: moveConsole 1s 2s forwards;
+        .console_wrap {
+            display:flex;
+            flex-direction:column;
+            width:100%;
+            height:auto;
+            .console_title {
+                display:flex;
+                justify-content:space-between;
+                align-items:center;
+                width:100%;
+                height:10%;
+                border:1px solid #666;
+                background:#252526;
+                text-align:center;
+                .console_title_btn {
+                    width:10%;
+                    font-size:12px;
+                    span {
+                        margin-right:5px;
+                    }
+                    .console_title_btn_close {
+                        color:#ff0000;
+                    }
+                    .console_title_btn_mini {
+                        color:#f4f800;
+                    }
+                    .console_title_btn_resize {
+                        color:#008e0e;
+                    }
+                }
+                .console_title_text {
+                    width:90%;
+                    color:#aaa;
+                    font-size:13px;
+                    line-height:25px;
+                }
+            }
+            .console_inner {
+                display:flex;
+                width:100%;
+                height:auto;
+                border-left:1px solid #666;
+                border-right:1px solid #666;
+                border-bottom:1px solid #666;
+                .console_side_pannel {
+                    display:flex;
+                    width:20%;
+                    height:auto;
+                    font-size:9px;
+                    border-right:1px solid #666;
+                    background:#252526;
+                    .console_side_pannel_folders {
+                        padding:5px;
+                        .console_side_pannel_top_menu {
+                            display:flex;
+                            justify-content:space-between;
+                        }
+                        .console_side_pannel_folder1 {
+                            margin:10px 0 5px 0;
+                        }
+                        .console_side_pannel_folder2 {
+                            margin:3px 0;
+                            svg {
+                                margin-right:5px;
+                            }
+                        }
+                    }
+                    .console_side_pannel_icons {
+                        display:flex;
+                        justify-content:space-between;
+                        flex-direction:column;
+                        align-items:center;
+                        margin-top:5px;
+                        padding:0 5px;
+                        border-right:1px solid #666;
+                        .console_side_pannel_icons_top {
+                            display:flex;
+                            flex-direction: column;
+                        }
+                        .console_side_pannel_icons_bottom {
+                            display:flex;
+                            flex-direction:column;
+                            margin:5px 0;
+                        }
+                    }
+                }
+                .console_main_pannel {
+                    width:80%;
+                    height:auto;
+                    overflow:hidden;
+                    color:#aaa;
+                    .console_main_title_main_page {
+                        width:100%;
+                        height:auto;
+                        outline:none;
+                        border:none;
+                        background:#1E1E1E;
+                        color:#eee;
+                        font-size:12px;
+                    }
+                    .console_main_title {
+                        display:flex;
+                        align-items:center;
+                        width:100%;
+                        height:10%;
+                        font-size:12px;
+                        border-bottom:1px solid #666;
+                        color:#000;
+                        background:#252526;
+                        div {
+                            display:flex;
+                            justify-content:space-around;
+                            align-items:center;
+                            width:20%;
+                            height:100%;
+                            padding:0 5px;
+                            border-right:1px solid #666;
+                            background:#2D2D2D;
+                            color:#aaa;
+                            svg {
+                                font-size:10px;
+                            }
+                        }
+                        div:nth-child(1) {
+                            background:#1E1E1E;
+                        }
+                        div:nth-child(2) {}
+                        div:nth-child(3) {}
+                    }
+
+                }
+            }
+            .console_log {
+                width:100%;
+                height:100%;
+                border:1px solid #666;
+                border-top:none;
+                .console_log_top {
+                    width:100%;
+                    display:flex;
+                    justify-content:space-around;
+                    color:#999;
+                    line-height:20px;
+                    border-bottom:1px solid #666;
+                    background:#252526;
+
+                    div {
+                        font-size:11px;
+                    }
+                    .console_log_top_icon {
+                        display:flex;;
+                        justify-content:right;
+                        align-items:center;
+                        width:20%;
+                        font-size:14px;
+                        margin-right:10px;
+                    }
+                    .console_log_top_menu {
+                        width:80%;
+                        display:flex;
+                        justify-content:space-between;
+                        text-align:left;
+                        div:nth-child(2) {
+                            background:#1E1E1E;
+                            padding:0 5px;
+                        }
+                    }
+                    .console_log_top_close {
+                        display:flex;
+                        justify-content:right;
+                        align-items:center;
+                        width:20%;
+                        font-size:14px;
+                        margin-right:10px;
+                    }
+                }
+                .console_log_bottom {
+                    line-height: 58px;
+                    background:#1E1E1E;
+                    font-size:12px;
+                    padding:2px 5px;
+                    overflow-y:auto;
+                    overflow:hidden;
+                    .console_log_bottom_text {
+                        color:#94d4fe
+                    }
+                }
+            }
+        }
+    }
+    
+}
+
+
+@keyframes moveText_1 {
+    0% {
+        left:-100%;
+    }
+    100% {
+        left:20px;
+    }
+}
+@keyframes moveConsole {
+    0% {
+        right:-100%;
+    }
+    100% {
+        right:0;
+    }
+}
+
+@keyframes changeColorA {
+    0% {
+        color:#fff;
+    }
+    25% {
+        color:#e0ffcb;
+    }
+    50% {
+        color:#cbffa8;
+    }
+    75% {
+        color:#8dfd42;
+    }
+    100% {
+        color:#66ff00;
+    }
+}
+
+@keyframes changeColorB {
+    0% {
+        color:#fff;
+    }
+    25% {
+        color:#fecfe2;
+    }
+    50% {
+        color:#fb98bf;
+    }
+    75% {
+        color:#ff579a;
+    }
+    100% {
+        color:#ff0066;
+    }
+}
+
+@keyframes changeColorC {
+    0% {
+        color:#ff0d00
+    }
+    10% {
+        color:#ff8800
+    }
+    30% {
+        color:#ffe600
+    }
+    40% {
+        color:#9dff00
+    }
+    50% {
+        color:#00ff84
+    }
+    60% {
+        color:#00c8ff
+    }
+    70% {
+        color:#0033ff
+    }
+    80% {
+        color:#6a00ff
+    }
+    90% {
+        color:#f200ff
+    }
+    100% {
+        color:#ff006a
+    }
+}

@@ -1,0 +1,294 @@
+header {
+    width:100%;
+    .header_wrap {
+        display:flex;
+        align-items:center;
+        justify-content:space-between;
+        width:100%;
+        height:20vh;
+        .header_logo {
+            width:15%;
+            height:80px;
+            position:relative;
+            top:0;
+            left:0;
+            right:0;
+            bottom:0;
+            font-size:60px;
+            cursor:pointer;
+            color:#66ff00;
+            .header_logo_loading {
+                position:absolute;
+                top:50%;
+                left:50%;
+                transform:translate(-50%,-50%);
+                z-index:3;
+                opacity:0;
+                transition:.1s;
+                animation: logo_icon_1 10s 1s infinite, gnb_icon 1.5s 0.3s infinite;
+            }
+            .haeder_logo_main {
+                position:absolute;
+                top:50%;
+                left:50%;
+                transform:translate(-50%,-50%);
+                z-index:2;
+                transition:.1s;
+                animation: logo_icon_2 10s 1s infinite, gnb_icon 1.5s 0.3s infinite;
+            }
+            .haeder_logo_sub {
+                position:absolute;
+                top:50%;
+                left:50%;
+                transform:translate(-50%,-50%);
+                z-index:1;
+                opacity:0;
+                transition:.1s;
+                animation: logo_icon_3 10s 1s infinite, gnb_icon 1.5s 0.3s infinite;
+            }
+        }
+        .main_gnb_wrap {
+            list-style:none;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            width:75%;
+            height:50px;
+            margin:auto;
+            padding:40px 20px;
+            li {
+                width:100%;
+                margin:auto;
+                text-align:center;
+                color:#bbb;
+                font-size:20px;
+                transition:.4s;
+                cursor:pointer;
+            }
+            li::after {
+                position:absolute;
+                left:0;
+                bottom:0;
+                display:block;
+                content:"";
+                width:0;
+                height:2px;
+                background:#66ff00;
+                transition:.8s;
+            }
+            .main_gnb_hover_effect {
+                width:100%;
+                height:100%;
+                position:relative;
+                top:0;
+                left:0;
+                bottom:0;
+                right:0;
+                cursor:pointer;
+                overflow:hidden;
+                span:nth-child(1) {
+                    position:absolute;
+                    top:50%;
+                    left:50%;
+                    transform:translate(-50%,-50%);
+                    transition:.5s;
+                }
+                span:nth-child(2) {
+                    position:absolute;
+                    top:150%;
+                    left:50%;
+                    transform:translate(-50%,-50%);
+                    transition:.7s;
+                    opacity:0;
+                }
+                &:hover {
+                    color:#66ff00;
+                }
+                &:hover::after {
+                    width:100%;
+                }
+                &:hover span:nth-child(1) {
+                    top:-100%;
+                }
+                &:hover span:nth-child(2) {
+                    top:50%;
+                    opacity:1;
+                }
+            }
+            .main_gnb_icon {
+                position:relative;
+                top:0;
+                left:0;
+                right:0;
+                bottom:0;
+                font-size:40px;
+                color:#666;
+                animation: gnb_icon 1.5s 0.3s infinite;
+                transition:.4s;
+                cursor:pointer;
+                .main_gnb_icon_main {
+                    position:absolute;
+                    top:50%;
+                    left:50%;
+                    transform:translate(-50%,-50%);
+                    opacity:1;
+                    svg {
+                        transition:.4s;
+                    }
+                }
+                .main_gnb_icon_hover {
+                    position:absolute;
+                    top:50%;
+                    left:50%;
+                    transform:translate(-50%,-50%);
+                    opacity:0;
+                }
+                &:hover .main_gnb_icon_main {
+                    opacity:0;
+                    transition:1s;
+
+                }
+                &:hover .main_gnb_icon_hover {
+                    opacity:1;
+                    transform:scale(2);
+                    transition:1s;
+                    top:0;
+                    left:40%;
+                }
+            }
+        }
+    }
+}
+
+
+@keyframes gnb_icon {
+    0% {
+        color:#ff0d00
+    }
+    10% {
+        color:#ff8800
+    }
+    30% {
+        color:#ffe600
+    }
+    40% {
+        color:#9dff00
+    }
+    50% {
+        color:#00ff84
+    }
+    60% {
+        color:#00c8ff
+    }
+    70% {
+        color:#0033ff
+    }
+    80% {
+        color:#6a00ff
+    }
+    90% {
+        color:#f200ff
+    }
+    100% {
+        color:#ff006a
+    }
+}
+@keyframes logo_icon_1 {
+    0% {
+        opacity:0;
+    }
+    10% {
+        opacity:0
+    }
+    30% {
+        opacity:0
+    }
+    40% {
+        opacity:0
+    }
+    50% {
+        opacity:1
+    }
+    60% {
+        opacity:0
+    }
+    70% {
+        opacity:0
+    }
+    80% {
+        opacity:0
+    }
+    90% {
+        opacity:0
+    }
+    100% {
+        opacity:1
+    }
+}
+
+@keyframes logo_icon_2 {
+    0% {
+        opacity:0
+    }
+    10% {
+        opacity:1
+    }
+    20% {
+        opacity:1
+        
+    }
+    40% {
+        opacity:1
+    }
+    45% {
+        opacity:0
+    }
+    60% {
+        opacity:0
+    }
+    70% {
+        opacity:0
+    }
+    80% {
+        opacity:0
+    }
+    90% {
+        opacity:0
+    }
+    100% {
+        opacity:0
+    }
+}
+@keyframes logo_icon_3 {
+    0% {
+        opacity:0
+    }
+    10% {
+        opacity:0
+    }
+    30% {
+        opacity:0
+        
+    }
+    40% {
+        opacity:0
+    }
+    50% {
+        opacity:0
+    }
+    55% {
+        opacity:0
+    }
+    70% {
+        opacity:1
+    }
+    80% {
+        opacity:1
+    }
+    90% {
+        opacity:1
+    }
+    100% {
+        opacity:0
+    }
+}
