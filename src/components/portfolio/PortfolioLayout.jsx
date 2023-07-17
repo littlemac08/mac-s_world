@@ -19,7 +19,6 @@ const PortfolioLayout = () => {
   return (
     <div className={classes.portfolio_layout_wrap}>
         {portfolioContents.map((content, index)=>{
-          const item = Object.values(content)[index];
           return <PortfolioContent key={index} content={content}/>
           })
         }
