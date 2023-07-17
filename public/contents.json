@@ -58,6 +58,18 @@
           "B": "ADAPTIVE",
           "C": "API"
         }
+      },
+      {
+        "type": "REACT",
+        "title": "PLANET SHOP",
+        "subtitle": "REACT PRACTICE WEBSITE",
+        "img": "/img/react1.png",
+        "url":"https://littlemac08.github.io/planet_shop_R/",
+        "tags": {
+          "A": "REACT",
+          "B": "REACTIVE",
+          "C": "ROUTER"
+        }
       }
 
   ]
