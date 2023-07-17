@@ -18,6 +18,12 @@
         }
         .portfolio_intro_left_des {
             font-size:30px;
+            span {
+                color:#ff0066;
+            }
+            span:first-child {
+                color:#66ff00;
+            }
         }
     }
     .portfolio_intro_right {

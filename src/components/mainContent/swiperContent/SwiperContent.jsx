@@ -3,7 +3,7 @@ import classes from './SwiperContent.module.scss'
 import TextSVG from '../svgChanger/SvgChanger'
 import SwiperBgContent from './SwiperBgContent'
 
-const SwiperContent = ({textA, textB, javaA, javaB, javaC}) => {
+const SwiperContent = ({textA, textB, imgA, imgB, imgC}) => {
   const [ mouseOver, setMouseOver ] = useState(false)
   const mouseOverHandler = () => {
     setMouseOver(true)
@@ -20,7 +20,7 @@ const SwiperContent = ({textA, textB, javaA, javaB, javaC}) => {
             <TextSVG textA={textA} textB={textB} mouseOverState={mouseOver} />
         </div>
         <div className={classes.swiper_content_bg}>
-          <SwiperBgContent javaA={javaA} javaB={javaB} javaC={javaC}/>
+          <SwiperBgContent imgA={imgA} imgB={imgB} imgC={imgC}/>
         </div>
     </div>
   )

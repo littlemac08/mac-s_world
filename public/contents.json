@@ -1,0 +1,64 @@
+[
+    {
+        "type": "MARKUP",
+        "title": "GENESIS",
+        "subtitle": "CLONE WEBSITE",
+        "img": "/img/genesis_java.png",
+        "url":"https://littlemac08.github.io/genesis_Pc_J/",
+        "tags": {
+          "A": "MARKUP",
+          "B": "ADAPTIVE",
+          "C": "PC"
+        }
+    },
+    {
+        "type": "JS",
+        "title": "PORSCHE_PC",
+        "subtitle": "CLONE WEBSITE(HYUNDAI & PORSCHE)",
+        "img": "/img/porsche_java.png",
+        "url":"https://littlemac08.github.io/porsche_Pc_J/",
+        "tags": {
+          "A": "JAVA SCRIPT",
+          "B": "ADAPTIVE",
+          "C": "PC"
+        }
+      },
+      {
+        "type": "JS",
+        "title": "PORSCHE_MOBILE",
+        "subtitle": "CLONE WEBSITE(HYUNDAI & PORSCHE)",
+        "img": "/img/porsche_java_mobile.png",
+        "url":"https://littlemac08.github.io/porsche_Moblie_J/",
+        "tags": {
+          "A": "JAVA SCRIPT",
+          "B": "ADAPTIVE",
+          "C": "MOBLIE"
+        }
+      },
+      {
+        "type": "JS",
+        "title": "FREE SPIRIT TOUR",
+        "subtitle": "CLONE WEBSITE(SIGNIEL)",
+        "img": "/img/fst_java.png",
+        "url":"https://littlemac08.github.io/FreeSpiritTour_J/",
+        "tags": {
+          "A": "JAVA SCRIPT",
+          "B": "REACTIVE",
+          "C": "TEAM-PROJECT"
+        }
+      },
+      {
+        "type": "JS",
+        "title": "MAC-S WORLD",
+        "subtitle": "PROTFOLIO SITE",
+        "img": "/img/macsworld_java.png",
+        "url":"https://littlemac08.github.io/Mac-World/",
+        "tags": {
+          "A": "JAVA SCRIPT",
+          "B": "ADAPTIVE",
+          "C": "API"
+        }
+      }
+
+  ]
+  

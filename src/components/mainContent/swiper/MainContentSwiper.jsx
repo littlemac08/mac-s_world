@@ -20,9 +20,15 @@ const MainContentSwiper = () => {
         }
     };
 
-    const javaA = ''
-    const javaB = ''
-    const javaC = ''
+    const javaA = './img/porsche_java.jpg'
+    const javaB = './img/fst_java.png'
+    const javaC = './img/genesis_java.png'
+    const reactA = '/img/react1.png'
+    const reactB = '/img/react2.png'
+    const reactC = '/img/react3.png'
+    const vueA = '/img/locked.png'
+    const vueB = ''
+    const vueC = ''
 
     return (
         <div className={classes.swiper_wrap}>
@@ -32,13 +38,13 @@ const MainContentSwiper = () => {
                 onSwiper={(swiper) => (swiperRef.current = swiper)}
             >
                 <SwiperSlide>
-                    <SwiperContent textA="JAVA" textB="SCRIPT" javaA={javaA} javaB={javaB} javaC={javaC}/>
+                    <SwiperContent textA="JAVA" textB="SCRIPT" imgA={javaA} imgB={javaB} imgC={javaC}/>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <SwiperContent textB="REACT" />
+                    <SwiperContent textB="REACT" imgA={reactA} imgB={reactB} imgC={reactC}/>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <SwiperContent textB="VUE" />
+                    <SwiperContent textB="VUE" imgA={vueA} imgB={vueB} imgC={vueC} />
                 </SwiperSlide>
             </Swiper>
             <div className={classes.swiper_btns}>
