@@ -10,3 +10,12 @@ a {
     height:100vh;
     overflow-y:auto;
 }
+
+::-webkit-scrollbar {
+    width: 6px;
+    background-color: transparent;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: transparent;
+  }

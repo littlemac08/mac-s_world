@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import classes from './PortfolioLayout.module.scss'
-import PortfolioContent from './portfolioContent/PortfolioContent';
+import PortfolioContent from './portfolioContent/content/PortfolioContent';
+import './PortfolioLayout.scss';
 
 const PortfolioLayout = () => {
   const [portfolioContents, setPortfolioContents] = useState([]);
@@ -9,7 +9,6 @@ const PortfolioLayout = () => {
     .then(response => response.json())
     .then(portfolioContents => {
       setPortfolioContents(portfolioContents)
-      console.log('/////////////',portfolioContents)
     })
     .catch(err => {
       console.error('Error fetching or parsing JSON:', err);
@@ -17,7 +16,7 @@ const PortfolioLayout = () => {
   },[])
 
   return (
-    <div className={classes.portfolio_layout_wrap}>
+    <div className='portfolio_layout_wrap'>
         {portfolioContents.map((content, index)=>{
           return <PortfolioContent key={index} content={content}/>
           })
@@ -27,3 +26,4 @@ const PortfolioLayout = () => {
 }
 
 export default PortfolioLayout
+

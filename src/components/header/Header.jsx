@@ -1,6 +1,6 @@
 import React from 'react'
-import { FiActivity } from "react-icons/fi";
-import { TbGhost2, TbGhost2Filled, TbLoaderQuarter, TbMenu2 } from "react-icons/tb";
+// import { FiActivity } from "react-icons/fi";
+import { TbGhost2, TbGhost2Filled, TbLoaderQuarter } from "react-icons/tb";
 import classes from './Header.module.scss';
 import { Link } from 'react-router-dom';
 
@@ -37,14 +37,14 @@ const Header = () => {
                         <span>CONTACT</span>
                     </Link>
                 </li>
-                <li className={classes.main_gnb_icon}>
+                {/* <li className={classes.main_gnb_icon}>
                     <div className={classes.main_gnb_icon_main}>
                         <TbMenu2 />
                     </div>
                     <div className={classes.main_gnb_icon_hover}>
                         <FiActivity />
                     </div>
-                </li>
+                </li> */}
                 <li className={classes.main_gnb_hover_effect}>
                     <Link to='/portfolio'>
                         <span>PORTFOLIO</span>

@@ -33,9 +33,9 @@ const MainVisual = () => {
     <div className={classes.mainvisual_wrap}>
       <div className={classes.mainvisual_left_text}>
         <p className={classes.mainvisual_text_a}>Hi My Name is <span className={classes.mainvisual_text_color_a}>Mac</span></p>
-        <p className={classes.mainvisual_text_b}>I'm Larning For Coding, Become to <span className={classes.mainvisual_text_color_b}>Developer</span></p>
+        <p className={classes.mainvisual_text_b}>I'm Learning For Coding, Become to <span className={classes.mainvisual_text_color_b}>Developer</span></p>
         <p className={classes.mainvisual_text_c}>Now I'll Show My <span className={classes.mainvisual_text_color_a}>History</span> and <span className={classes.mainvisual_text_color_b}>works</span></p>
-        <p className={classes.mainvisual_text_d}><span className={classes.mainvisual_text_color_c}>Welecome :)</span></p>
+        <p className={classes.mainvisual_text_d}><span className={classes.mainvisual_text_color_c}>Welcome :)</span></p>
       </div>
       <div className={classes.mainvisual_right_sub}>
         <div className={classes.console_wrap}>
