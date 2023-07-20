@@ -94,32 +94,33 @@ export const ContactUs = ({contactShowHandler}) => {
             }, (error) => {
                 console.log(error.text);
             });
-        contactShowHandler();
+
+        contactShowHandler()
     };
 
     return (
-        <form className='contact_wrap' ref={form} onSubmit={sendEmail}>
-            <div className='contact_header'>
+        <form className='contact_modal_wrap' ref={form} onSubmit={sendEmail}>
+            <div className='contact_modal_header'>
                 <h2>Contact Me</h2>
                 <div onClick={contactShowHandler}><RiCloseFill /></div>
             </div>
-            <div className='contact_name'>
-                <label className='contact_title'>Name</label>
-                <input className='contact_input' type="text" name="user_name" placeholder='Mac' maxLength={10} value={userName} onChange={nameHandler}/>
+            <div className='contact_modal_name'>
+                <label className='contact_modal_title'>Name</label>
+                <input className='contact_modal_input' type="text" name="user_name" placeholder='Mac' maxLength={10} value={userName} onChange={nameHandler}/>
             </div>
-            <div className='contact_phone'>
-                <label className='contact_title'>Phone</label>
-                <input className='contact_input' type="tel" name="user_phone" placeholder='010-1234-1234(Only Number)' value={phoneNumber} onChange={phoneHandler} maxLength={13}/>
+            <div className='contact_modal_phone'>
+                <label className='contact_modal_title'>Phone</label>
+                <input className='contact_modal_input' type="tel" name="user_phone" placeholder='010-1234-1234(Only Number)' value={phoneNumber} onChange={phoneHandler} maxLength={13}/>
             </div>
-            <div className='contact_email'>
-                <label className='contact_title'>Email</label>
-                <input className='contact_input' type="email" name="user_email" placeholder='your-email@email.com' value={userEmail} onChange={(e) => setUserEmail(e.target.value)}/>
+            <div className='contact_modal_email'>
+                <label className='contact_modal_title'>Email</label>
+                <input className='contact_modal_input' type="email" name="user_email" placeholder='your-email@email.com' value={userEmail} onChange={(e) => setUserEmail(e.target.value)}/>
             </div>
-            <div className='contact_massage'>
-                <label className='contact_title'>Message</label>
-                <textarea className='contact_input' name="message" placeholder='write your message' value={userMessage} onChange={(e) => setUserMessage(e.target.value)}/>
+            <div className='contact_modal_massage'>
+                <label className='contact_modal_title'>Message</label>
+                <textarea className='contact_modal_input' name="message" placeholder='write your message' value={userMessage} onChange={(e) => setUserMessage(e.target.value)}/>
             </div>
-            <input className='contact_submit' type="submit" value="Send" />
+            <input className='contact_modal_submit' type="submit" value="Send" />
         </form>
     );
 };
