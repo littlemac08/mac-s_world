@@ -94,6 +94,7 @@ export const ContactUs = ({contactShowHandler}) => {
             }, (error) => {
                 console.log(error.text);
             });
+        contactShowHandler();
     };
 
     return (
