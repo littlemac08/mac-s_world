@@ -1,12 +1,13 @@
 import React from 'react'
 import { PiArrowElbowRightDownLight } from "react-icons/pi";
-import classes from './MainFooter.module.scss'
+import './MainFooter.scss'
+import { Link } from 'react-router-dom';
 
-const MainFooter = () => {
+const MainFooter = ({contactShowHandler}) => {
   return (
-    <div className={classes.footer_wrap}>
-      <div className={classes.footer_menu}>
-        <p className={classes.footer_main_menu}>
+    <div className='footer_wrap'>
+      <div className='footer_menu'>
+        <p className='footer_main_menu'>
           <span>DEVICE</span>
           <PiArrowElbowRightDownLight />
         </p>
@@ -16,18 +17,17 @@ const MainFooter = () => {
           <p>WINDOW DESKTOP</p>
         </div>
       </div>
-      <div className={classes.footer_menu}>
-        <p className={classes.footer_main_menu}>
+      <div className='footer_menu'>
+        <p className='footer_main_menu'>
           <span>CONTECT</span>
           <PiArrowElbowRightDownLight />
         </p>
         <div>
-          <p>myeongrae08@daum.net</p>
-          <p>wkdaudfo4@gmail.com</p>
+          <p className='active_buttons' onClick={contactShowHandler}>wkdaudfo4@gmail.com</p>
         </div>
       </div>
-      <div className={classes.footer_menu}>
-        <p className={classes.footer_main_menu}>
+      <div className='footer_menu'>
+        <p className='footer_main_menu'>
           <span>LOCATION</span>
           <PiArrowElbowRightDownLight />
         </p>
@@ -36,14 +36,14 @@ const MainFooter = () => {
           <p>GANGNAM / JUNGRANG</p>  
         </div>
       </div>
-      <div className={classes.footer_menu}>
-        <p className={classes.footer_main_menu}>
+      <div className='footer_menu'>
+        <p className='footer_main_menu'>
           <span>SOCIAL</span>
           <PiArrowElbowRightDownLight />
         </p>
         <div>
           <p>INSTAGRAM</p>
-          <p>TISTORY</p>  
+          <p className='active_buttons'><Link to='https://mac-world.tistory.com/'>TISTORY</Link></p>  
         </div>
       </div>
     </div>

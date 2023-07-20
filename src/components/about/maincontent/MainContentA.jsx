@@ -1,7 +1,7 @@
 import React from 'react';
 import classes from './MainContent.module.scss'
 
-const MainContentA = () => {
+const MainContentA = ({contactShowHandler}) => {
   return (
     <div className={classes.main_content_wrap}>
         <div className={classes.main_content_box}>
@@ -13,7 +13,7 @@ const MainContentA = () => {
                 </div>
                 <div className={classes.main_content_top_btn}>
                     <div className={classes.main_content_top_btn_logo_wrap}>
-                        <button>CONTECT ME</button>
+                        <button onClick={contactShowHandler}>CONTECT ME</button>
                     </div>
                 </div>
             </div>

@@ -1,11 +1,12 @@
-import React from 'react'
-import classes from './MainContent.module.scss'
-import MainContentSwiper from './swiper/MainContentSwiper'
+import React from 'react';
+import MainContentSwiper from './swiper/MainContentSwiper';
+import './MainContent.scss'
+
 
 
 const MainContent = () => {
   return (
-    <div className={classes.main_content_wrap}>
+    <div className='main_content_wrap'>
         <MainContentSwiper />
     </div>
   )

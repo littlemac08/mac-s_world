@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
-import classes from './SwiperContent.module.scss'
 import TextSVG from '../svgChanger/SvgChanger'
 import SwiperBgContent from './SwiperBgContent'
+import './SwiperContent.scss'
 
 const SwiperContent = ({textA, textB, imgA, imgB, imgC}) => {
   const [ mouseOver, setMouseOver ] = useState(false)
@@ -12,14 +12,14 @@ const SwiperContent = ({textA, textB, imgA, imgB, imgC}) => {
     setMouseOver(false)
   }
 
-  const swiperContentCover = mouseOver ? classes['swiper_content_cover_remove'] : classes['swiper_content_cover'];
+  const swiperContentCover = mouseOver ? 'swiper_content_cover_remove' : 'swiper_content_cover';
 
   return (
-    <div className={classes.swiper_content_wrap} onMouseOver={mouseOverHandler} onMouseOut={mouseOutHandler} >
+    <div className='swiper_content_wrap' onMouseOver={mouseOverHandler} onMouseOut={mouseOutHandler} >
         <div className={`${swiperContentCover}`}>
             <TextSVG textA={textA} textB={textB} mouseOverState={mouseOver} />
         </div>
-        <div className={classes.swiper_content_bg}>
+        <div className='swiper_content_bg'>
           <SwiperBgContent imgA={imgA} imgB={imgB} imgC={imgC}/>
         </div>
     </div>

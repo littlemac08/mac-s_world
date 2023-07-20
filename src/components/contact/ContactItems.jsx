@@ -1,11 +1,11 @@
 import React from 'react'
 import ContactIcon from './contactIcon/ContactIcon'
-import classes from './ContactItems.module.scss'
+import './ContactItems.scss'
 
-const Contact = () => {
+const Contact = ({contactShowHandler}) => {
   return (
-    <div className={classes.contect_wrap}>
-        <ContactIcon />
+    <div className='contect_wrap'>
+        <ContactIcon contactShowHandler={contactShowHandler} />
     </div>
   )
 }

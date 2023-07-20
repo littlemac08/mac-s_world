@@ -3,11 +3,11 @@ import MainVisual from '../components/about/MainVisual'
 import MainContentA from '../components/about/maincontent/MainContentA'
 import SubContentA from '../components/about/subcontent/SubContentA'
 
-const About = () => {
+const About = ({contactShowHandler}) => {
   return (
     <>
         <MainVisual />
-        <MainContentA />
+        <MainContentA contactShowHandler={contactShowHandler}/>
         <SubContentA />
     </>
   )

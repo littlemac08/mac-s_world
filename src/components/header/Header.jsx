@@ -1,7 +1,7 @@
 import React from 'react'
 // import { FiActivity } from "react-icons/fi";
 import { TbGhost2, TbGhost2Filled, TbLoaderQuarter } from "react-icons/tb";
-import classes from './Header.module.scss';
+import './Header.scss';
 import { Link } from 'react-router-dom';
 
 
@@ -10,48 +10,48 @@ import { Link } from 'react-router-dom';
 const Header = () => {
   return (
     <header>
-        <div className={classes.header_wrap}>
-            <div className={classes.header_logo}>
+        <div className='header_wrap'>
+            <div className='header_logo'>
                 <Link to='/'>
-                    <div className={classes.header_logo_loading}>
+                    <div className='header_logo_loading'>
                         <TbLoaderQuarter />
                     </div>
                 </Link>
-                <div className={classes.haeder_logo_main}>
+                <div className='haeder_logo_main'>
                     <TbGhost2 />
                 </div>
-                <div className={classes.haeder_logo_sub}>
+                <div className='haeder_logo_sub'>
                     <TbGhost2Filled />
                 </div>
             </div>
-            <ul className={classes.main_gnb_wrap}>
-                <li className={classes.main_gnb_hover_effect}>
+            <ul className='main_gnb_wrap'>
+                <li className='main_gnb_hover_effect'>
                     <Link to='/about'>
                         <span>ABOUT</span>
                         <span>ABOUT</span>
                     </Link>
                 </li>
-                <li className={classes.main_gnb_hover_effect}>
+                <li className='main_gnb_hover_effect'>
                     <Link to='/contact'>
                         <span>CONTACT</span>
                         <span>CONTACT</span>
                     </Link>
                 </li>
-                {/* <li className={classes.main_gnb_icon}>
-                    <div className={classes.main_gnb_icon_main}>
+                {/* <li className=main_gnb_icon>
+                    <div className=main_gnb_icon_main>
                         <TbMenu2 />
                     </div>
-                    <div className={classes.main_gnb_icon_hover}>
+                    <div className=main_gnb_icon_hover>
                         <FiActivity />
                     </div>
                 </li> */}
-                <li className={classes.main_gnb_hover_effect}>
+                <li className='main_gnb_hover_effect'>
                     <Link to='/portfolio'>
                         <span>PORTFOLIO</span>
                         <span>PORTFOLIO</span>
                     </Link>
                 </li>
-                <li className={classes.main_gnb_hover_effect}>
+                <li className='main_gnb_hover_effect'>
                     <Link to='https://mac-world.tistory.com/'>
                         <span>BLOG</span>
                         <span>BLOG</span>

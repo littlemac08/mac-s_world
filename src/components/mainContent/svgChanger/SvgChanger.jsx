@@ -1,5 +1,5 @@
 import React from 'react';
-import classes from './SvgChanger.module.scss'
+import './SvgChanger.scss'
 
 const TextSVG = ({textA, textB, mouseOverState}) => {
   // SVG 속성 및 스타일 설정
@@ -15,16 +15,16 @@ const TextSVG = ({textA, textB, mouseOverState}) => {
     fontSize: '250px',
   };
 
-  const moveBox = mouseOverState ? classes['mouse-over'] : '';
+  const moveBox = mouseOverState ? 'mouse-over' : '';
 
   return (
     <>
-        <div className={`${classes.svg_container} ${moveBox}`}>
+        <div className={`svg_container ${moveBox}`}>
             <svg {...svgAttributes}>
                 <text {...textAttributes}>{textA}</text>
             </svg>
         </div>
-        <div className={`${classes.svg_container} ${moveBox}`}>
+        <div className={`svg_container ${moveBox}`}>
             <svg {...svgAttributes}>
                 <text {...textAttributes}>{textB}</text>
             </svg>

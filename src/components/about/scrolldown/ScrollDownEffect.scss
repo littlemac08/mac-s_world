@@ -1,0 +1,74 @@
+.scroll_down_effect_wrap {
+    position:relative;
+    display:block;
+    width:100%;
+    height:30%;
+    margin:10px auto;
+    color:#fff;
+    font-size:40px;
+    .scroll_action_1 {
+        position:absolute;
+        top:0;
+        left:50%;
+        animation-name:scroll_down_effect_A;
+        animation-duration:2s;
+        animation-iteration-count:infinite;
+    }
+    .scroll_action_2 {
+        position:absolute;
+        top:0;
+        left:50%;
+        animation-name:scroll_color_effect_A;
+        animation-duration:2s;
+        animation-iteration-count:infinite;
+    }
+    .scroll_action_3 {
+        position:absolute;
+        top:0;
+        left:0;
+    }
+}
+@keyframes scroll_down_effect_A {
+    0% {
+        top:0;
+        opacity:1;
+        rotate:360deg;
+    }
+    100% {
+        top:100%;
+        opacity:0;
+    }
+}
+@keyframes scroll_color_effect_A {
+    0% {
+        color:#ff0d00;
+        rotate:360deg;
+    }
+    10% {
+        color:#ff8800
+    }
+    30% {
+        color:#ffe600
+    }
+    40% {
+        color:#9dff00
+    }
+    50% {
+        color:#00ff84
+    }
+    60% {
+        color:#00c8ff
+    }
+    70% {
+        color:#0033ff
+    }
+    80% {
+        color:#6a00ff
+    }
+    90% {
+        color:#f200ff
+    }
+    100% {
+        color:#ff006a
+    }
+}

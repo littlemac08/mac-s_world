@@ -1,10 +1,10 @@
 import React from 'react';
 import ContactItems from '../components/contact/ContactItems'
 
-const Contact = () => {
+const Contact = ({contactShowHandler}) => {
   return (
     <>
-        <ContactItems />
+        <ContactItems contactShowHandler={contactShowHandler}/>
     </>
   )
 }

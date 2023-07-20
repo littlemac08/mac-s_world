@@ -3,7 +3,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import SwiperContent from '../swiperContent/SwiperContent';
 import { MdOutlineKeyboardDoubleArrowRight, MdOutlineKeyboardDoubleArrowLeft  } from "react-icons/md";
 import 'swiper/css';
-import classes from './MainContentSwiper.module.scss'
+import './MainContentSwiper.scss'
 
 const MainContentSwiper = () => {
     const swiperRef = useRef(null);
@@ -31,7 +31,7 @@ const MainContentSwiper = () => {
     const vueC = ''
 
     return (
-        <div className={classes.swiper_wrap}>
+        <div className='swiper_wrap'>
             <Swiper
                 spaceBetween={50}
                 slidesPerView={1}
@@ -47,7 +47,7 @@ const MainContentSwiper = () => {
                     <SwiperContent textB="VUE" imgA={vueA} imgB={vueB} imgC={vueC} />
                 </SwiperSlide>
             </Swiper>
-            <div className={classes.swiper_btns}>
+            <div className='swiper_btns'>
                 <button onClick={handlePrev}><MdOutlineKeyboardDoubleArrowLeft /></button>
                 <button onClick={handleNext}><MdOutlineKeyboardDoubleArrowRight /></button>
             </div>

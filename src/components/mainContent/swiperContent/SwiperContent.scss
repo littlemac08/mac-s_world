@@ -1,0 +1,53 @@
+.swiper_content_wrap {
+    position:relative;
+    width:80%;
+    height:80vh;
+    margin:0 auto;
+    background:#111110;
+    cursor:pointer;
+    .swiper_content_cover {
+        position:absolute;
+        top:0;
+        left:0;
+        width:100%;
+        height:100%;
+        background:#111110;
+        z-index:2;
+        transition:1s;
+        p {
+            margin:0;
+            font-weight:bold;
+            font-family: 'Titillium Web';
+            color:#fff;
+        }
+    }
+    .swiper_content_bg {
+        position:absolute;
+        width:100%;
+        height:100%;
+        top:0;
+        left:0;
+    }
+}
+.swiper_content_cover_remove {
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    background:#111110;
+    z-index:2;
+    animation: removeCover 1s forwards;
+}
+
+@keyframes removeCover {
+    0% {
+        height:99%;
+        opacity:1;
+    }
+    90% {
+    }
+    100% {
+        height:0;
+        opacity:0;
+    }
+}

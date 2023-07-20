@@ -1,12 +1,12 @@
 import React from 'react';
 import Typewriter from 'typewriter-effect';
-import classes from './TypewriterApi.module.scss'
+import './TypewriterApi.scss'
 
 const TypewriterApi = () => {
 
 
     return (
-        <div className={classes.type_text}>
+        <div className='type_text'>
             <Typewriter
                 onInit={(typewriter) => {
                     typewriter.typeString('Thank you for visiting my website.')
