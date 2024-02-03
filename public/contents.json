@@ -350,6 +350,79 @@
               ]
               }
         ]
+      },
+    {
+        "type": "REACT",
+        "title": "AROMATICA",
+        "subtitle": "REACT PRACTICE WEBSITE",
+        "img": "/img/react1.png",
+        "url":"https://aromaticapj.netlify.app/",
+        "tags": {
+          "A": "REACT",
+          "B": "REACTIVE",
+          "C": "ROUTER"
+        },
+        "git":"https://github.com/littlemac08/planet_shop_R",
+
+        "infoItem":[
+          {
+          "infoPoint":"/img/planetshop_point_1.gif",
+          "infoPointTitle_en":"React Slider Function",
+          "infoPointTitle_ko":"리액트 슬라이더 기능",
+          "text_en":[
+            "Using the React",
+            "Call the json data",
+            "Click the button, index number increase or decrease,",
+            "Show that content",
+            "Then I'll make it :)",
+            "So I learned JSON Data"
+          ],
+          "text_ko":[
+            "리액트를 사용했습니다.",
+            "제이슨 데이터를 사용했습니다.",
+            "버튼을 클릭하면, 인덱스 값이 증가 또는 감소하고,",
+            "해당 콘텐츠를 보여주게 됩니다.",
+            "원활하게 작동할 수 있도록 구현하였습니다.",
+            "제이슨 데이터의 구조를 이해할 수 있었습니다."
+          ]
+          },
+          {
+            "infoPoint":"/img/planetshop_point_2.gif",
+            "infoPointTitle_en":"React JSON Data",
+            "infoPointTitle_ko":"리액트 제이슨 데이터",
+            "text_en":[
+              "Using the React",
+              "If click the add button,",
+              "than every click, add 4 contents",
+              "Then I'll make it :)",
+              "So I learned JSON Data"
+            ],
+            "text_ko":[
+              "리액트를 사용했습니다.",
+              "만약 추가버튼을 누른다면,",
+              "매 클릭 당 4개의 콘텐츠가 추가됩니다.",
+              "원활하게 작동할 수 있도록 구현하였습니다.",
+              "제이슨 데이터의 활용법을 이해할 수 있었습니다."
+            ]
+            },
+            {
+              "infoPoint":"/img/planetshop_point_3.gif",
+              "infoPointTitle_en":"React Filter Function",
+              "infoPointTitle_ko":"리액트 필터 기능",
+              "text_en":[
+                "Using the React",
+                "Planets page can choose the category.",
+                "Using the Filter to JSON Data",
+                "So I learned JSON Data to map & filter"
+              ],
+              "text_ko":[
+                "리액트를 사용했습니다.",
+                "플래닛 페이지는 카테고리를 선택할 수 있습니다.",
+                "제이슨 데이터에 필터기능을 사용하였습니다.",
+                "제이슨 데이터를 활용하는 방법을 이해할 수 있었습니다."
+              ]
+              }
+        ]
       }
 
   ]
