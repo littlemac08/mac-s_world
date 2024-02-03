@@ -387,7 +387,7 @@
             "infoPointTitle_en":"Firebase RealtimeDatabase",
             "infoPointTitle_ko":"파이어베이스 리얼타임 데이터베이스",
             "text_en":[
-              "Using Firebase's real-time database"",
+              "Using Firebase's real-time database",
               "Product information and",
               "user information are processed in real time.",
             ],
