@@ -101,319 +101,319 @@
           ]
         }
       ]
-      },
-      {
-        "type": "JS",
-        "title": "PORSCHE_MOBILE",
-        "subtitle": "CLONE WEBSITE(HYUNDAI & PORSCHE)",
-        "img": "/img/porsche_java_mobile.png",
-        "url":"https://littlemac08.github.io/porsche_Moblie_J/",
-        "tags": {
-          "A": "JAVA SCRIPT",
-          "B": "ADAPTIVE",
-          "C": "MOBLIE"
-        },
-        "git":"https://github.com/littlemac08/porsche_Moblie_J",
+    },
+    {
+    "type": "JS",
+    "title": "PORSCHE_MOBILE",
+    "subtitle": "CLONE WEBSITE(HYUNDAI & PORSCHE)",
+    "img": "/img/porsche_java_mobile.png",
+    "url":"https://littlemac08.github.io/porsche_Moblie_J/",
+    "tags": {
+        "A": "JAVA SCRIPT",
+        "B": "ADAPTIVE",
+        "C": "MOBLIE"
+    },
+    "git":"https://github.com/littlemac08/porsche_Moblie_J",
 
-        "infoItem":[
-          {
-          "infoPoint":"/img/porsche_M_point_1.gif",
-          "infoPointTitle_en":"Media Query",
-          "infoPointTitle_ko":"미디어 쿼리",
-          "text_en":[
-            "Using the media query",
-            "Can adaptive web site exchange",
-            "Reactive web site",
-            "and make the mobile web site",
-            "So I learned reactive & adaptive"
-          ],
-          "text_ko":[
-            "미디어 쿼리를 사용했습니다.",
-            "적응형 웹 사이트를 반응형 웹사이트로",
-            "변환할 수 있고.",
-            "모바일형 웹사이트를 만들 수 있습니다.",
-            "적응형과 반응형에 대해 이해 할 수 있었습니다."
-          ]
-          }
+    "infoItem":[
+        {
+        "infoPoint":"/img/porsche_M_point_1.gif",
+        "infoPointTitle_en":"Media Query",
+        "infoPointTitle_ko":"미디어 쿼리",
+        "text_en":[
+        "Using the media query",
+        "Can adaptive web site exchange",
+        "Reactive web site",
+        "and make the mobile web site",
+        "So I learned reactive & adaptive"
+        ],
+        "text_ko":[
+        "미디어 쿼리를 사용했습니다.",
+        "적응형 웹 사이트를 반응형 웹사이트로",
+        "변환할 수 있고.",
+        "모바일형 웹사이트를 만들 수 있습니다.",
+        "적응형과 반응형에 대해 이해 할 수 있었습니다."
         ]
-      },
-      {
-        "type": "JS",
-        "title": "FREE SPIRIT TOUR",
-        "subtitle": "CLONE WEBSITE(SIGNIEL)",
-        "img": "/img/fst_java.png",
-        "url":"https://littlemac08.github.io/FreeSpiritTour_J/",
-        "tags": {
-          "A": "JAVA SCRIPT",
-          "B": "REACTIVE",
-          "C": "TEAM-PROJECT"
-        },
-        "git":"https://github.com/littlemac08/FreeSpiritTour_J",
+        }
+    ]
+    },
+    {
+    "type": "JS",
+    "title": "FREE SPIRIT TOUR",
+    "subtitle": "CLONE WEBSITE(SIGNIEL)",
+    "img": "/img/fst_java.png",
+    "url":"https://littlemac08.github.io/FreeSpiritTour_J/",
+    "tags": {
+        "A": "JAVA SCRIPT",
+        "B": "REACTIVE",
+        "C": "TEAM-PROJECT"
+    },
+    "git":"https://github.com/littlemac08/FreeSpiritTour_J",
 
-        "infoItem":[
-          {
-          "infoPoint":"/img/fst_point_1.gif",
-          "infoPointTitle_en":"JavaScript Calendar Function",
-          "infoPointTitle_ko":"자바스크립트 캘린더 기능",
-          "text_en":[
-            "Only use Vanilla JS",
-            "Can use the API,",
-            "But just wanna practice JavaScript",
-            "Using the ul, li, and forEach",
+    "infoItem":[
+        {
+        "infoPoint":"/img/fst_point_1.gif",
+        "infoPointTitle_en":"JavaScript Calendar Function",
+        "infoPointTitle_ko":"자바스크립트 캘린더 기능",
+        "text_en":[
+        "Only use Vanilla JS",
+        "Can use the API,",
+        "But just wanna practice JavaScript",
+        "Using the ul, li, and forEach",
+        "Then I'll make it :)",
+        "So I learned reusability & forEach"
+        ],
+        "text_ko":[
+        "바닐라 자바스크립트를 사용했습니다.",
+        "API를 사용할수 있었지만",
+        "자바스크립트 연습을 위하여 바닐라스크립트를 사용했습니다.",
+        "ul, li, a태그와 forEach 기능을 사용하여 만들었습니다.",
+        "원활하게 작동할 수 있도록 구현하였습니다.",
+        "재사용성과 반복문에 대한 이해 할 수 있었습니다."
+        ]
+        },
+        {
+        "infoPoint":"/img/fst_point_2.gif",
+        "infoPointTitle_en":"Map API",
+        "infoPointTitle_ko":"지도 API",
+        "text_en":[
+            "Using the KAKAO map API",
+            "Can use the API",
             "Then I'll make it :)",
-            "So I learned reusability & forEach"
-          ],
-          "text_ko":[
+            "So I learned API"
+        ],
+        "text_ko":[
+            "카카오맵 API를 사용했습니다.",
+            "API를 사용할 수 있습니다.",
+            "원활하게 작동할 수 있도록 구현하였습니다.",
+            "API 사용하는 방법을 이해 할 수 있었습니다."
+        ]
+        },
+        {
+            "infoPoint":"/img/fst_point_3.gif",
+            "infoPointTitle_en":"Reactive Swiper API",
+            "infoPointTitle_ko":"반응형 스와이퍼 API",
+            "text_en":[
+            "Using the Swiper API",
+            "If see the website to mobile device,",
+            "Content is change the swiper",
+            "So I learned siwper API & Reactive JavaScript"
+            ],
+            "text_ko":[
+            "스와이퍼 API를 사용했습니다.",
+            "모바일 기기로 웹사이트를 본다면,",
+            "콘텐츠가 스와이퍼 형식의 슬라이더로 변하게 됩니다.",
+            "스와이퍼 API를 이해하고 반응형 기능을 이해할 수 있었습니다."
+            ]
+            }
+    ]
+    },
+    {
+    "type": "JS",
+    "title": "MAC-S WORLD",
+    "subtitle": "PROTFOLIO SITE",
+    "img": "/img/macsworld_java.png",
+    "url":"https://littlemac08.github.io/Mac-World/",
+    "tags": {
+        "A": "JAVA SCRIPT",
+        "B": "ADAPTIVE",
+        "C": "API"
+    },
+    "git":"https://github.com/littlemac08/Mac-World",
+
+    "infoItem":[
+        {
+        "infoPoint":"/img/macsworld_poing_1.gif",
+        "infoPointTitle_en":"Typewriter API",
+        "infoPointTitle_ko":"타입라이터 API",
+        "text_en":[
+        "Using the typewriter API",
+        "and apply the typing sound effect also.",
+        "If hover the text, translate in korean",
+        "Then I'll make it :)",
+        "So I learned typewriter & sound effect"
+        ],
+        "text_ko":[
+        "타입라이터 API를 사용했습니다.",
+        "그리고 타이핑 소리 효과도 적용하였습니다.",
+        "만약 글씨에 마우스를 올리면 한국어로 번역이됩니다.",
+        "원활하게 작동할 수 있도록 구현하였습니다.",
+        "타입라이터 API를 이해할 수 있었습니다."
+        ]
+        },
+        {
+        "infoPoint":"/img/macsworld_poing_2.gif",
+        "infoPointTitle_en":"Gsap API",
+        "infoPointTitle_ko":"스크롤 이벤트 API",
+        "text_en":[
+            "Using the gsap API",
+            "If scroll down,",
+            "scroll position passes a specific content",
+            "Then I'll make it :)",
+            "So I learned API"
+        ],
+        "text_ko":[
+            "카카오맵 API를 사용했습니다.",
+            "API를 사용할 수 있습니다.",
+            "원활하게 작동할 수 있도록 구현하였습니다.",
+            "API 사용하는 방법을 이해 할 수 있었습니다."
+        ]
+        },
+        {
+            "infoPoint":"/img/macsworld_poing_3.gif",
+            "infoPointTitle_en":"Tracing Animation Function",
+            "infoPointTitle_ko":"트레이싱 애니메이션 기능",
+            "text_en":[
+            "Using the Vanilla JS",
+            "Using the Stroke-dasharray & stroke-dashoffset,",
+            "Path drawing the start point to end point",
+            "So I learned SVG animation"
+            ],
+            "text_ko":[
             "바닐라 자바스크립트를 사용했습니다.",
-            "API를 사용할수 있었지만",
-            "자바스크립트 연습을 위하여 바닐라스크립트를 사용했습니다.",
-            "ul, li, a태그와 forEach 기능을 사용하여 만들었습니다.",
-            "원활하게 작동할 수 있도록 구현하였습니다.",
-            "재사용성과 반복문에 대한 이해 할 수 있었습니다."
-          ]
-          },
-          {
-            "infoPoint":"/img/fst_point_2.gif",
-            "infoPointTitle_en":"Map API",
-            "infoPointTitle_ko":"지도 API",
-            "text_en":[
-              "Using the KAKAO map API",
-              "Can use the API",
-              "Then I'll make it :)",
-              "So I learned API"
-            ],
-            "text_ko":[
-              "카카오맵 API를 사용했습니다.",
-              "API를 사용할 수 있습니다.",
-              "원활하게 작동할 수 있도록 구현하였습니다.",
-              "API 사용하는 방법을 이해 할 수 있었습니다."
+            "스트로크 대쉬어레이와 스트로크 대쉬 오프셋을 이용하여,",
+            "패스의 시작점 ~ 종료점까지 그려지는 효과를 구현했습니다.",
+            "SVG 애니메이션을 이해할 수 있었습니다."
             ]
-            },
-            {
-              "infoPoint":"/img/fst_point_3.gif",
-              "infoPointTitle_en":"Reactive Swiper API",
-              "infoPointTitle_ko":"반응형 스와이퍼 API",
-              "text_en":[
-                "Using the Swiper API",
-                "If see the website to mobile device,",
-                "Content is change the swiper",
-                "So I learned siwper API & Reactive JavaScript"
-              ],
-              "text_ko":[
-                "스와이퍼 API를 사용했습니다.",
-                "모바일 기기로 웹사이트를 본다면,",
-                "콘텐츠가 스와이퍼 형식의 슬라이더로 변하게 됩니다.",
-                "스와이퍼 API를 이해하고 반응형 기능을 이해할 수 있었습니다."
-              ]
-              }
-        ]
-      },
-      {
-        "type": "JS",
-        "title": "MAC-S WORLD",
-        "subtitle": "PROTFOLIO SITE",
-        "img": "/img/macsworld_java.png",
-        "url":"https://littlemac08.github.io/Mac-World/",
-        "tags": {
-          "A": "JAVA SCRIPT",
-          "B": "ADAPTIVE",
-          "C": "API"
-        },
-        "git":"https://github.com/littlemac08/Mac-World",
+            }
+    ]
+    },
+    {
+    "type": "REACT",
+    "title": "PLANET SHOP",
+    "subtitle": "REACT PRACTICE WEBSITE",
+    "img": "/img/react1.png",
+    "url":"https://littlemac08.github.io/planet_shop_R/",
+    "tags": {
+        "A": "REACT",
+        "B": "REACTIVE",
+        "C": "ROUTER"
+    },
+    "git":"https://github.com/littlemac08/planet_shop_R",
 
-        "infoItem":[
-          {
-          "infoPoint":"/img/macsworld_poing_1.gif",
-          "infoPointTitle_en":"Typewriter API",
-          "infoPointTitle_ko":"타입라이터 API",
-          "text_en":[
-            "Using the typewriter API",
-            "and apply the typing sound effect also.",
-            "If hover the text, translate in korean",
-            "Then I'll make it :)",
-            "So I learned typewriter & sound effect"
-          ],
-          "text_ko":[
-            "타입라이터 API를 사용했습니다.",
-            "그리고 타이핑 소리 효과도 적용하였습니다.",
-            "만약 글씨에 마우스를 올리면 한국어로 번역이됩니다.",
-            "원활하게 작동할 수 있도록 구현하였습니다.",
-            "타입라이터 API를 이해할 수 있었습니다."
-          ]
-          },
-          {
-            "infoPoint":"/img/macsworld_poing_2.gif",
-            "infoPointTitle_en":"Gsap API",
-            "infoPointTitle_ko":"스크롤 이벤트 API",
-            "text_en":[
-              "Using the gsap API",
-              "If scroll down,",
-              "scroll position passes a specific content",
-              "Then I'll make it :)",
-              "So I learned API"
-            ],
-            "text_ko":[
-              "카카오맵 API를 사용했습니다.",
-              "API를 사용할 수 있습니다.",
-              "원활하게 작동할 수 있도록 구현하였습니다.",
-              "API 사용하는 방법을 이해 할 수 있었습니다."
-            ]
-            },
-            {
-              "infoPoint":"/img/macsworld_poing_3.gif",
-              "infoPointTitle_en":"Tracing Animation Function",
-              "infoPointTitle_ko":"트레이싱 애니메이션 기능",
-              "text_en":[
-                "Using the Vanilla JS",
-                "Using the Stroke-dasharray & stroke-dashoffset,",
-                "Path drawing the start point to end point",
-                "So I learned SVG animation"
-              ],
-              "text_ko":[
-                "바닐라 자바스크립트를 사용했습니다.",
-                "스트로크 대쉬어레이와 스트로크 대쉬 오프셋을 이용하여,",
-                "패스의 시작점 ~ 종료점까지 그려지는 효과를 구현했습니다.",
-                "SVG 애니메이션을 이해할 수 있었습니다."
-              ]
-              }
+    "infoItem":[
+        {
+        "infoPoint":"/img/planetshop_point_1.gif",
+        "infoPointTitle_en":"React Slider Function",
+        "infoPointTitle_ko":"리액트 슬라이더 기능",
+        "text_en":[
+        "Using the React",
+        "Call the json data",
+        "Click the button, index number increase or decrease,",
+        "Show that content",
+        "Then I'll make it :)",
+        "So I learned JSON Data"
+        ],
+        "text_ko":[
+        "리액트를 사용했습니다.",
+        "제이슨 데이터를 사용했습니다.",
+        "버튼을 클릭하면, 인덱스 값이 증가 또는 감소하고,",
+        "해당 콘텐츠를 보여주게 됩니다.",
+        "원활하게 작동할 수 있도록 구현하였습니다.",
+        "제이슨 데이터의 구조를 이해할 수 있었습니다."
         ]
-      },
-      {
-        "type": "REACT",
-        "title": "PLANET SHOP",
-        "subtitle": "REACT PRACTICE WEBSITE",
-        "img": "/img/react1.png",
-        "url":"https://littlemac08.github.io/planet_shop_R/",
-        "tags": {
-          "A": "REACT",
-          "B": "REACTIVE",
-          "C": "ROUTER"
         },
-        "git":"https://github.com/littlemac08/planet_shop_R",
-
-        "infoItem":[
-          {
-          "infoPoint":"/img/planetshop_point_1.gif",
-          "infoPointTitle_en":"React Slider Function",
-          "infoPointTitle_ko":"리액트 슬라이더 기능",
-          "text_en":[
+        {
+        "infoPoint":"/img/planetshop_point_2.gif",
+        "infoPointTitle_en":"React JSON Data",
+        "infoPointTitle_ko":"리액트 제이슨 데이터",
+        "text_en":[
             "Using the React",
-            "Call the json data",
-            "Click the button, index number increase or decrease,",
-            "Show that content",
+            "If click the add button,",
+            "than every click, add 4 contents",
             "Then I'll make it :)",
             "So I learned JSON Data"
-          ],
-          "text_ko":[
+        ],
+        "text_ko":[
             "리액트를 사용했습니다.",
-            "제이슨 데이터를 사용했습니다.",
-            "버튼을 클릭하면, 인덱스 값이 증가 또는 감소하고,",
-            "해당 콘텐츠를 보여주게 됩니다.",
+            "만약 추가버튼을 누른다면,",
+            "매 클릭 당 4개의 콘텐츠가 추가됩니다.",
             "원활하게 작동할 수 있도록 구현하였습니다.",
-            "제이슨 데이터의 구조를 이해할 수 있었습니다."
-          ]
-          },
-          {
-            "infoPoint":"/img/planetshop_point_2.gif",
-            "infoPointTitle_en":"React JSON Data",
-            "infoPointTitle_ko":"리액트 제이슨 데이터",
+            "제이슨 데이터의 활용법을 이해할 수 있었습니다."
+        ]
+        },
+        {
+            "infoPoint":"/img/planetshop_point_3.gif",
+            "infoPointTitle_en":"React Filter Function",
+            "infoPointTitle_ko":"리액트 필터 기능",
             "text_en":[
-              "Using the React",
-              "If click the add button,",
-              "than every click, add 4 contents",
-              "Then I'll make it :)",
-              "So I learned JSON Data"
+            "Using the React",
+            "Planets page can choose the category.",
+            "Using the Filter to JSON Data",
+            "So I learned JSON Data to map & filter"
             ],
             "text_ko":[
-              "리액트를 사용했습니다.",
-              "만약 추가버튼을 누른다면,",
-              "매 클릭 당 4개의 콘텐츠가 추가됩니다.",
-              "원활하게 작동할 수 있도록 구현하였습니다.",
-              "제이슨 데이터의 활용법을 이해할 수 있었습니다."
+            "리액트를 사용했습니다.",
+            "플래닛 페이지는 카테고리를 선택할 수 있습니다.",
+            "제이슨 데이터에 필터기능을 사용하였습니다.",
+            "제이슨 데이터를 활용하는 방법을 이해할 수 있었습니다."
             ]
-            },
-            {
-              "infoPoint":"/img/planetshop_point_3.gif",
-              "infoPointTitle_en":"React Filter Function",
-              "infoPointTitle_ko":"리액트 필터 기능",
-              "text_en":[
-                "Using the React",
-                "Planets page can choose the category.",
-                "Using the Filter to JSON Data",
-                "So I learned JSON Data to map & filter"
-              ],
-              "text_ko":[
-                "리액트를 사용했습니다.",
-                "플래닛 페이지는 카테고리를 선택할 수 있습니다.",
-                "제이슨 데이터에 필터기능을 사용하였습니다.",
-                "제이슨 데이터를 활용하는 방법을 이해할 수 있었습니다."
-              ]
-              }
-        ]
-      },
-      {
+            }
+    ]
+    },
+    {
     "type": "REACT",
     "title": "AROMATICA",
     "subtitle": "REACT PRACTICE WEBSITE",
     "img": "/img/aromaticaMain.png",
     "url": "https://aromaticapj.netlify.app/",
     "tags": {
-      "A": "REACT",
-      "B": "ADAPTIVE",
-      "C": "ROUTER"
+        "A": "REACT",
+        "B": "ADAPTIVE",
+        "C": "ROUTER"
     },
     "git": "https://github.com/littlemac08/Aromatica/tree/master",
     "infoItem": [
-      {
-        "infoPoint": "/img/firebase.png",
-        "infoPointTitle_en": "Firebase",
+        {
+        "infoPoint": "/img/firebase.png",
+        "infoPointTitle_en": "Firebase",
         "infoPointTitle_ko": "파이어베이스",
         "text_en": [
-          "Using the React",
-          "Every data using the Firebase",
-          "Image is use the Firebase Storage,",
-          "The other Data using Firebase RealtimeDatabse"
+            "Using the React",
+            "Every data using the Firebase",
+            "Image is use the Firebase Storage,",
+            "The other Data using Firebase RealtimeDatabse"
         ],
         "text_ko": [
-          "리액트를 사용했습니다.",
-          "모든 데이터는 파이어베이스를 사용했습니다.",
-          "이미지 파일은 파이어베이스 스토리지를 이용하고,",
-          "나머지 모든 데이터는 파이어베이스 리얼타임데이터베이스를 이용했습니다."
+            "리액트를 사용했습니다.",
+            "모든 데이터는 파이어베이스를 사용했습니다.",
+            "이미지 파일은 파이어베이스 스토리지를 이용하고,",
+            "나머지 모든 데이터는 파이어베이스 리얼타임데이터베이스를 이용했습니다."
         ]
-      },
-      {
+        },
+        {
         "infoPoint": "/img/realtime.png",
         "infoPointTitle_en": "Firebase RealtimeDatabase",
         "infoPointTitle_ko": "파이어베이스 리얼타임 데이터베이스",
         "text_en": [
-          "Using Firebase's real-time database",
-          "Product information and",
-          "user information are processed in real time."
+            "Using Firebase's real-time database",
+            "Product information and",
+            "user information are processed in real time."
         ],
         "text_ko": [
-          "파이어베이스의 리얼타임 데이터베이스를 이용한",
-          "상품정보와 유저의 정보들을 실시간으로 처리합니다."
+            "파이어베이스의 리얼타임 데이터베이스를 이용한",
+            "상품정보와 유저의 정보들을 실시간으로 처리합니다."
         ]
-      },
-      {
+        },
+        {
         "infoPoint": "/img/storage.png",
         "infoPointTitle_en": "Product Upload Function",
         "infoPointTitle_ko": "상품 업로드 기능",
         "text_en": [
-          "You can upload products.",
-          "The image is saved to Firebase storage,",
-          "The rest of the data including the image address",
-          "It is uploaded to the Firebase real-time database."
+            "You can upload products.",
+            "The image is saved to Firebase storage,",
+            "The rest of the data including the image address",
+            "It is uploaded to the Firebase real-time database."
         ],
         "text_ko": [
-          "상품을 업로드 할 수 있습니다.",
-          "이미지는 파이어베이스 스토리지로 저장이되고,",
-          "이미지주소를 포함한 나머지 데이터는",
-          "파이어베이스 리얼타임데이터베이스로 업로드 됩니다."
+            "상품을 업로드 할 수 있습니다.",
+            "이미지는 파이어베이스 스토리지로 저장이되고,",
+            "이미지주소를 포함한 나머지 데이터는",
+            "파이어베이스 리얼타임데이터베이스로 업로드 됩니다."
         ]
-      }
+        }
     ]
-  }
+    }
 
-  ]
-  
+]
+
