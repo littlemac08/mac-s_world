@@ -351,70 +351,69 @@
               }
         ]
       },
-    {
-        "type": "REACT",
-        "title": "AROMATICA",
-        "subtitle": "REACT PRACTICE WEBSITE",
-        "img": "/img/aromaticaMain.png",
-        "url":"https://aromaticapj.netlify.app/",
-        "tags": {
-          "A": "REACT",
-          "B": "ADAPTIVE",
-          "C": "ROUTER"
-        },
-        "git":"https://github.com/littlemac08/Aromatica/tree/master",
-
-        "infoItem":[
-          {
-          "infoPoint":"/img/firebase.png",
-          "infoPointTitle_en":"Firebase",
-          "infoPointTitle_ko":"파이어베이스",
-          "text_en":[
-            "Using the React",
-            "Every data using the Firebase",
-            "Image is use the Firebase Storage,",
-            "The other Data using Firebase RealtimeDatabse",
-          ],
-          "text_ko":[
-            "리액트를 사용했습니다.",
-            "모든 데이터는 파이어베이스를 사용했습니다.",
-            "이미지 파일은 파이어베이스 스토리지를 이용하고,",
-            "나머지 모든 데이터는 파이어베이스 리얼타임데이터베이스를 이용했습니다.",
-          ]
-          },
-          {
-            "infoPoint":"/img/realtime.png",
-            "infoPointTitle_en":"Firebase RealtimeDatabase",
-            "infoPointTitle_ko":"파이어베이스 리얼타임 데이터베이스",
-            "text_en":[
-              "Using Firebase's real-time database",
-              "Product information and",
-              "user information are processed in real time.",
-            ],
-            "text_ko":[
-              "파이어베이스의 리얼타임 데이터베이스를 이용한",
-              "상품정보와 유저의 정보들을 실시간으로 처리합니다.",
-            ]
-            },
-            {
-              "infoPoint":"/img/storage.png",
-              "infoPointTitle_en":"Product Upload Function",
-              "infoPointTitle_ko":"상품 업로드 기능",
-              "text_en":[
-                "You can upload products.",
-                "The image is saved to Firebase storage,",
-                "The rest of the data including the image address",
-                "It is uploaded to the Firebase real-time database."
-              ],
-              "text_ko":[
-                "상품을 업로드 할 수 있습니다.",
-                "이미지는 파이어베이스 스토리지로 저장이되고,",
-                "이미지주소를 포함한 나머지 데이터는",
-                "파이어베이스 리얼타임데이터베이스로 업로드 됩니다."
-              ]
-              }
+      {
+    "type": "REACT",
+    "title": "AROMATICA",
+    "subtitle": "REACT PRACTICE WEBSITE",
+    "img": "/img/aromaticaMain.png",
+    "url": "https://aromaticapj.netlify.app/",
+    "tags": {
+      "A": "REACT",
+      "B": "ADAPTIVE",
+      "C": "ROUTER"
+    },
+    "git": "https://github.com/littlemac08/Aromatica/tree/master",
+    "infoItem": [
+      {
+        "infoPoint": "/img/firebase.png",
+        "infoPointTitle_en": "Firebase",
+        "infoPointTitle_ko": "파이어베이스",
+        "text_en": [
+          "Using the React",
+          "Every data using the Firebase",
+          "Image is use the Firebase Storage,",
+          "The other Data using Firebase RealtimeDatabse"
+        ],
+        "text_ko": [
+          "리액트를 사용했습니다.",
+          "모든 데이터는 파이어베이스를 사용했습니다.",
+          "이미지 파일은 파이어베이스 스토리지를 이용하고,",
+          "나머지 모든 데이터는 파이어베이스 리얼타임데이터베이스를 이용했습니다."
+        ]
+      },
+      {
+        "infoPoint": "/img/realtime.png",
+        "infoPointTitle_en": "Firebase RealtimeDatabase",
+        "infoPointTitle_ko": "파이어베이스 리얼타임 데이터베이스",
+        "text_en": [
+          "Using Firebase's real-time database",
+          "Product information and",
+          "user information are processed in real time."
+        ],
+        "text_ko": [
+          "파이어베이스의 리얼타임 데이터베이스를 이용한",
+          "상품정보와 유저의 정보들을 실시간으로 처리합니다."
+        ]
+      },
+      {
+        "infoPoint": "/img/storage.png",
+        "infoPointTitle_en": "Product Upload Function",
+        "infoPointTitle_ko": "상품 업로드 기능",
+        "text_en": [
+          "You can upload products.",
+          "The image is saved to Firebase storage,",
+          "The rest of the data including the image address",
+          "It is uploaded to the Firebase real-time database."
+        ],
+        "text_ko": [
+          "상품을 업로드 할 수 있습니다.",
+          "이미지는 파이어베이스 스토리지로 저장이되고,",
+          "이미지주소를 포함한 나머지 데이터는",
+          "파이어베이스 리얼타임데이터베이스로 업로드 됩니다."
         ]
       }
+    ]
+  }
 
   ]
   
